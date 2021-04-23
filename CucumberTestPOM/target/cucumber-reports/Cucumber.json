@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-23T01:29:18.028Z",
+        "line": 7,
+        "name": "Preencher pesquisa com dados obrigatorios validos",
+        "description": "",
+        "id": "pesquisa-com-o-qa;preencher-pesquisa-com-dados-obrigatorios-validos",
+        "after": [
+          {
+            "result": {
+              "duration": 875549100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.PesquisaQASteps_POM.closeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16273449100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesse a pagina da VV Test",
+            "match": {
+              "location": "StepDefinitions.PesquisaQASteps_POM.que_eu_acesse_a_pagina_da_vv_test()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9074989200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "acesse o menu \"Pesquisa - QA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pesquisa - QA\"",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.PesquisaQASteps_POM.acesse_o_menu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 968119400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "eu preencher todos os campos obrigatorios",
+            "match": {
+              "location": "StepDefinitions.PesquisaQASteps_POM.eu_preencher_todos_os_campos_obrigatorios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1651947600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "deve ser direcionado para uma pagina de sucesso",
+            "match": {
+              "location": "StepDefinitions.PesquisaQASteps_POM.deve_ser_direcionado_para_uma_pagina_de_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisa com o QA",
+    "description": "\tComo um recrutador\n\tQuero colher dados da pesquisa\n\tPara fazer analises mais detalhadas do QA",
+    "id": "pesquisa-com-o-qa",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/pesquisaQA.feature",
+    "tags": []
+  }
+]
